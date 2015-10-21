@@ -1,0 +1,978 @@
+{
+  "name": "${projectName}",
+  "lib_components": [
+    "Bootstrap"
+  ],
+  "pages": [
+    {
+      "pageName": "MainPage",
+      "pagePath": "/home",
+      "children": [
+        {
+          "type": "ButtonGroup",
+          "props": {
+            "data-umyid": "107"
+          },
+          "children": [
+            {
+              "type": "Button",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Left",
+                  "props": {
+                    "data-umyid": "109"
+                  }
+                }
+              ],
+              "props": {
+                "data-umyid": "108"
+              }
+            },
+            {
+              "type": "Button",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Middle",
+                  "props": {
+                    "data-umyid": "111"
+                  }
+                }
+              ],
+              "props": {
+                "data-umyid": "110"
+              }
+            },
+            {
+              "type": "Button",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Right",
+                  "props": {
+                    "data-umyid": "113"
+                  }
+                }
+              ],
+              "props": {
+                "data-umyid": "112"
+              }
+            }
+          ]
+        },
+        {
+          "type": "Input",
+          "props": {
+            "type": "text",
+            "placeholder": "Enter value",
+            "addonBefore": "$",
+            "addonAfter": ".00",
+            "data-umyid": "2"
+          },
+          "children": []
+        },
+        {
+          "type": "Input",
+          "props": {
+            "type": "text",
+            "hasFeedback": true,
+            "placeholder": "Enter value",
+            "label": "Label for input",
+            "help": "Help for input",
+            "data-umyid": "19"
+          },
+          "children": []
+        },
+        {
+          "variantName": "Default",
+          "type": "div",
+          "children": [
+            {
+              "variantName": "small mesh",
+              "type": "Grid",
+              "props": {
+                "fluid": true,
+                "data-umyid": "21"
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "23"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://github.com/ipselon/structor",
+                                "target": "blank",
+                                "data-umyid": "25"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "GitHub",
+                                  "props": {
+                                    "data-umyid": "26"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "24"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "27"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://github.com/ipselon/structor/wiki",
+                                "target": "blank",
+                                "data-umyid": "29"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "StructorDocs",
+                                  "props": {
+                                    "data-umyid": "30"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "28"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "31"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://www.facebook.com/groups/1668757740011916/",
+                                "target": "blank",
+                                "data-umyid": "33"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "FacebookGroup",
+                                  "props": {
+                                    "data-umyid": "34"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "32"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "35"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://www.youtube.com/playlist?list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1",
+                                "target": "blank",
+                                "data-umyid": "37"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "YoutubeChannel",
+                                  "props": {
+                                    "data-umyid": "38"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "36"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "39"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://groups.google.com/forum/#!forum/structor-forum",
+                                "target": "blank",
+                                "data-umyid": "41"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "GoogleGroup",
+                                  "props": {
+                                    "data-umyid": "42"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "40"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 6,
+                        "md": 2,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "43"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://twitter.com/helmetrex",
+                                "target": "blank",
+                                "data-umyid": "45"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Twitter",
+                                  "props": {
+                                    "data-umyid": "46"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "44"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {
+                    "data-umyid": "22"
+                  }
+                }
+              ]
+            }
+          ],
+          "props": {
+            "style": {
+              "margin": "2em 5% 0 5%",
+              "fontSize": "16px",
+              "borderBottom": "1px solid #fff"
+            },
+            "data-umyid": "20"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "h1",
+          "children": [
+            {
+              "type": "span",
+              "text": "Structor",
+              "props": {
+                "data-umyid": "48"
+              }
+            },
+            {
+              "type": "span",
+              "text": "Market",
+              "props": {
+                "className": "text-primary",
+                "data-umyid": "49"
+              }
+            }
+          ],
+          "props": {
+            "style": {
+              "textAlign": "center",
+              "fontSize": "50px",
+              "fontWeight": 300,
+              "letterSpacing": "1px"
+            },
+            "data-umyid": "47"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "h3",
+          "children": [
+            {
+              "type": "span",
+              "text": "Here you can find a variety of boilerplates ready to use in Structor",
+              "props": {
+                "data-umyid": "51"
+              }
+            }
+          ],
+          "props": {
+            "className": "under-title-text text-center",
+            "data-umyid": "50"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "h3",
+          "children": [
+            {
+              "variantName": "Default",
+              "type": "span",
+              "text": "Structor",
+              "props": {
+                "style": {
+                  "marginRight": "0.3em"
+                },
+                "data-umyid": "53"
+              }
+            },
+            {
+              "type": "span",
+              "text": "- user interface builder for ReactJS.",
+              "props": {
+                "data-umyid": "54"
+              }
+            },
+            {
+              "variantName": "Default",
+              "type": "a",
+              "props": {
+                "href": "https://github.com/ipselon/structor",
+                "style": {
+                  "marginLeft": "0.5em"
+                },
+                "target": "blank",
+                "data-umyid": "55"
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Learn more...",
+                  "props": {
+                    "data-umyid": "56"
+                  }
+                }
+              ]
+            }
+          ],
+          "props": {
+            "className": "under-title-text text-center",
+            "data-umyid": "52"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "div",
+          "children": [
+            {
+              "variantName": "Unsaved variant",
+              "type": "LandingImg",
+              "props": {
+                "style": {
+                  "width": "100%",
+                  "borderBottom": "1px solid #fff"
+                },
+                "data-umyid": "58"
+              }
+            }
+          ],
+          "props": {
+            "style": {
+              "margin": "0 5% 0 5%"
+            },
+            "data-umyid": "57"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "div",
+          "children": [
+            {
+              "type": "Grid",
+              "props": {
+                "fluid": true,
+                "data-umyid": "60"
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 12,
+                        "sm": 12,
+                        "lg": 12,
+                        "data-umyid": "62"
+                      },
+                      "children": []
+                    }
+                  ],
+                  "props": {
+                    "data-umyid": "61"
+                  }
+                },
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "sm": 10,
+                        "md": 10,
+                        "lg": 10,
+                        "smOffset": 1,
+                        "mdOffset": 1,
+                        "lgOffset": 1,
+                        "data-umyid": "64"
+                      },
+                      "children": [
+                        {
+                          "variantName": "first variant",
+                          "type": "ProjectThumbnailWrapper",
+                          "props": {
+                            "data-umyid": "65"
+                          },
+                          "children": []
+                        },
+                        {
+                          "variantName": "Default",
+                          "type": "ProjectList",
+                          "children": [],
+                          "props": {
+                            "data-umyid": "66"
+                          }
+                        },
+                        {
+                          "variantName": "first variant",
+                          "type": "ProjectThumbnailWrapper",
+                          "props": {
+                            "data-umyid": "67"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {
+                    "data-umyid": "63"
+                  }
+                }
+              ]
+            }
+          ],
+          "props": {
+            "style": {
+              "marginTop": "4em"
+            },
+            "data-umyid": "59"
+          }
+        },
+        {
+          "variantName": "Default",
+          "type": "div",
+          "children": [
+            {
+              "variantName": "small mesh",
+              "type": "Grid",
+              "props": {
+                "fluid": true,
+                "data-umyid": "69"
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "children": [
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 4,
+                        "sm": 4,
+                        "lg": 2,
+                        "lgOffset": 3,
+                        "data-umyid": "71"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Thank you for sharing",
+                              "props": {
+                                "data-umyid": "73"
+                              }
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "72"
+                          }
+                        },
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "https://twitter.com/intent/tweet?text=Structor: UI builder for React&url=http://helmetrex.com",
+                                "target": "blank",
+                                "data-umyid": "75"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": " ",
+                                  "props": {
+                                    "className": "fa fa-twitter",
+                                    "style": {
+                                      "width": "1.5em",
+                                      "fontSize": "32px"
+                                    },
+                                    "data-umyid": "76"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "74"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 4,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "77"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "div",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "div",
+                              "children": [
+                                {
+                                  "variantName": "Default",
+                                  "type": "div",
+                                  "children": [
+                                    {
+                                      "variantName": "Default",
+                                      "type": "p",
+                                      "children": [
+                                        {
+                                          "variantName": "Default",
+                                          "type": "span",
+                                          "text": "HelmetRex © 2015",
+                                          "props": {
+                                            "data-umyid": "82"
+                                          }
+                                        }
+                                      ],
+                                      "props": {
+                                        "className": "text-center",
+                                        "data-umyid": "81"
+                                      }
+                                    }
+                                  ],
+                                  "props": {
+                                    "style": {
+                                      "display": "table-cell",
+                                      "verticalAlign": "middle",
+                                      "width": "100%",
+                                      "height": "5em"
+                                    },
+                                    "data-umyid": "80"
+                                  }
+                                }
+                              ],
+                              "props": {
+                                "style": {
+                                  "display": "table-row"
+                                },
+                                "data-umyid": "79"
+                              }
+                            }
+                          ],
+                          "props": {
+                            "style": {
+                              "display": "table",
+                              "width": "100%"
+                            },
+                            "data-umyid": "78"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "Col",
+                      "props": {
+                        "xs": 12,
+                        "md": 4,
+                        "sm": 4,
+                        "lg": 2,
+                        "data-umyid": "83"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Write to us",
+                              "props": {
+                                "data-umyid": "85"
+                              }
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "84"
+                          }
+                        },
+                        {
+                          "variantName": "Default",
+                          "type": "p",
+                          "children": [
+                            {
+                              "variantName": "Default",
+                              "type": "a",
+                              "props": {
+                                "href": "mailto: support@helmetrex.com",
+                                "data-umyid": "87"
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "support@helmetrex.com",
+                                  "props": {
+                                    "data-umyid": "88"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "props": {
+                            "className": "text-center",
+                            "data-umyid": "86"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "props": {
+                    "data-umyid": "70"
+                  }
+                }
+              ]
+            }
+          ],
+          "props": {
+            "style": {
+              "margin": "100px 5% 0 5%",
+              "fontSize": "16px",
+              "height": "50px",
+              "paddingTop": "1em",
+              "borderTop": "1px solid #fff"
+            },
+            "data-umyid": "68"
+          }
+        }
+      ],
+      "props": {
+        "data-umyid": "1"
+      },
+      "pageTitle": "",
+      "pageProps": [],
+      "pageScript": ""
+    },
+    {
+      "pageName": "ProjectDetailsPage",
+      "pagePath": "/details/:projectId",
+      "children": [
+        {
+          "variantName": "small mesh",
+          "type": "Grid",
+          "props": {
+            "fluid": true,
+            "data-umyid": "90"
+          },
+          "children": [
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "md": 10,
+                    "sm": 10,
+                    "lg": 10,
+                    "mdOffset": 1,
+                    "smOffset": 1,
+                    "lgOffset": 1,
+                    "data-umyid": "92"
+                  },
+                  "children": [
+                    {
+                      "variantName": "Default",
+                      "type": "h1",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Structor",
+                          "props": {
+                            "data-umyid": "94"
+                          }
+                        },
+                        {
+                          "type": "span",
+                          "text": "Market",
+                          "props": {
+                            "className": "text-primary",
+                            "data-umyid": "95"
+                          }
+                        }
+                      ],
+                      "props": {
+                        "style": {
+                          "textAlign": "center",
+                          "fontSize": "50px",
+                          "fontWeight": 300,
+                          "letterSpacing": "1px"
+                        },
+                        "data-umyid": "93"
+                      }
+                    },
+                    {
+                      "variantName": "Default",
+                      "type": "p",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Project detailed overview",
+                          "props": {
+                            "data-umyid": "97"
+                          }
+                        },
+                        {
+                          "variantName": "Default",
+                          "type": "span",
+                          "text": "or",
+                          "props": {
+                            "style": {
+                              "marginLeft": "0.5em"
+                            },
+                            "data-umyid": "98"
+                          }
+                        },
+                        {
+                          "type": "Link",
+                          "props": {
+                            "to": "/",
+                            "style": {
+                              "marginLeft": "0.5em"
+                            },
+                            "data-umyid": "99"
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Back Home",
+                              "props": {
+                                "data-umyid": "100"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "props": {
+                        "className": "text-center",
+                        "data-umyid": "96"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "props": {
+                "data-umyid": "91"
+              }
+            },
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "md": 10,
+                    "sm": 10,
+                    "lg": 10,
+                    "lgOffset": 1,
+                    "mdOffset": 1,
+                    "smOffset": 1,
+                    "data-umyid": "102"
+                  },
+                  "children": [
+                    {
+                      "variantName": "Unsaved variant",
+                      "type": "ProjectOverview",
+                      "props": {
+                        "data-umyid": "103"
+                      }
+                    },
+                    {
+                      "variantName": "Default",
+                      "type": "p",
+                      "children": [
+                        {
+                          "type": "Link",
+                          "props": {
+                            "to": "/",
+                            "style": {
+                              "marginLeft": "0.5em"
+                            },
+                            "data-umyid": "105"
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Back Home",
+                              "props": {
+                                "data-umyid": "106"
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "props": {
+                        "className": "text-center",
+                        "data-umyid": "104"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "props": {
+                "data-umyid": "101"
+              }
+            }
+          ]
+        }
+      ],
+      "props": {
+        "data-umyid": "89"
+      },
+      "pageTitle": "",
+      "pageProps": [],
+      "pageScript": ""
+    }
+  ]
+}
